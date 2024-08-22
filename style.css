@@ -1,1 +1,299 @@
-# layout-estudo
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html body {
+    background: silver;
+}
+
+header {
+    height: 50px;
+    background: plum;
+}
+
+main {
+    height: 100vh;
+    background: purple;
+}
+
+footer {
+
+}
+
+.ft-container {
+    /*background: #d81dd8;*/
+    height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.ft-column-1, .ft-column-2, .ft-column-3, .ft-column-4{
+    text-align: center;
+    display: inline-block;
+    background: white;
+    height: 100%;
+    width: 24%;
+}
+
+.ft-column-1 h1 {
+    font-size: 1.4rem;
+    padding: 30px 0 30px 0;
+    border-bottom: 0.4rem solid #d81dd8;
+    /*border-top: 0.4rem solid #d81dd8;*/
+}
+
+.ft-column-1 nav {
+    margin: 20px 0;
+}
+
+.ft-column-1 nav ul {
+    
+}
+
+.ft-column-1 nav ul li {
+    display: inline-block;
+    list-style: none;
+
+}
+
+.ft-column-1 nav ul li a {
+    background: black;
+    padding: 11px;
+    text-decoration: none;
+    color: #d81dd8;
+    border-radius: 1rem;
+}
+
+.ft-column-1 nav ul li a:hover {
+    background: #d81dd8;
+    color: white;
+}
+
+.ft-column-1-links a {
+    width: 100%;
+    text-align: left;
+    display: inline-block;
+    /*background: black;*/
+    /*padding: 12px 0;*/
+    padding: 0.2rem 2rem;
+    text-decoration: none;
+    color: #d81dd8;
+}
+
+.ft-column-1-links a:hover {
+    color: #000;
+}
+
+/* coluna 2 */
+
+.ft-column-2 h1 {
+    font-size: 1.4rem;
+    padding: 30px 0 30px 0;
+    border-bottom: 0.4rem solid #d81dd8;
+    /*background: #d81dd8;*/
+}
+
+.ft-column-2 a {
+    width: 100%;
+    text-align: left;
+    display: inline-block;
+    background: black;
+    padding: 0.65rem 0;
+    text-decoration: none;
+    color: #d81dd8;
+
+}
+
+.ft-column-2 a span {
+    padding: 0 10px;
+}
+
+.ft-column-2 a:hover {
+    background: #d81dd8;
+    color: white;
+}
+
+
+.ft-column-2 nav {
+
+}
+
+.ft-column-2 nav ul {
+    
+}
+
+.ft-column-2 nav ul li {
+    display: block;
+    padding: 10px;
+    list-style: none;
+
+}
+
+.ft-column-2 nav ul li a {
+    background: black;
+    padding: 11px;
+    text-decoration: none;
+    color: #d81dd8;
+
+}
+
+.ft-column-2 nav ul li a:hover {
+    background: #d81dd8;
+    color: white;
+}
+
+
+/* final */
+
+
+/* coluna 3 */
+
+.ft-column-3 h1 {
+    font-size: 1.4rem;
+    padding: 30px 0 30px 0;
+    border-bottom: 0.4rem solid #d81dd8;
+    /*background: #d81dd8;*/
+}
+
+.ft-column-3 a {
+    width: 100%;
+    text-align: left;
+    display: inline-block;
+    background: black;
+    padding: 0.65rem 0;
+    text-decoration: none;
+    color: #d81dd8;
+}
+
+.ft-column-3 a span {
+    padding: 0 10px;
+}
+
+.ft-column-3 a:hover {
+    background: #d81dd8;
+    color: white;
+}
+
+
+.ft-column-3 nav {
+
+}
+
+.ft-column-3 nav ul {
+    
+}
+
+.ft-column-3 nav ul li {
+    display: block;
+    padding: 10px;
+    list-style: none;
+
+}
+
+.ft-column-3 nav ul li a {
+    background: black;
+    padding: 11px;
+    text-decoration: none;
+    color: #d81dd8;
+
+}
+
+.ft-column-3 nav ul li a:hover {
+    background: #d81dd8;
+    color: white;
+}
+
+
+/* final */
+
+/* coluna 4 */
+
+.ft-column-4 h1 {
+    font-size: 1.4rem;
+    padding: 30px 0 30px 0;
+    border-bottom: 0.4rem solid #d81dd8;
+    /*background: #d81dd8;*/
+}
+
+.ft-column-4 a {
+    width: 100%;
+    /*height: 3rem;*/
+
+    text-align: left;
+    display: inline-block;
+    background: black;
+    padding: 12px 0;
+    text-decoration: none;
+    color: #d81dd8;
+    /*border-left: 10px solid #d81dd8;*/
+
+
+}
+/*
+.ft-column-4 a span {
+    padding: 0 10px;
+}
+
+.ft-column-4 a:hover {
+    background: #d81dd8;
+    color: white;
+}
+*/
+
+.ft-column-4 nav {
+    margin: 10px 0 50px 0;
+}
+
+.ft-column-4 nav ul {
+    
+}
+
+.ft-column-4 nav ul li {  /* substituir */
+    display: inline-block;
+    list-style: none;
+
+}
+
+.ft-column-4 nav ul li a {
+    background: black;
+    padding: 11px;
+    text-decoration: none;
+    color: #d81dd8;
+    border-radius: 1rem;
+
+}
+
+.ft-column-4 nav ul li a:hover {
+    background: #d81dd8;
+    color: white;
+}
+
+.ft-column-4 h2 {
+    margin-bottom: 30px;
+}
+.ft-column-4 h3 {
+    margin: 30px 0;
+}
+
+.ft-column-4 span {
+    margin-bottom: 15px;
+}
+ /* link  */
+
+/* final */
+.ft-name {
+    text-align: center;
+    background: white;
+    margin-top: 10px;
+    height: 60px;
+    width: 100%;
+}
+
+.ft-name p {
+    display: inline-block;
+    padding: 20px;
+}
