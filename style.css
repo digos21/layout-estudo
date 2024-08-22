@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Montserrat';
 }
 
 html body {
@@ -47,7 +50,7 @@ footer {
 }
 
 .ft-column-1 nav {
-    margin: 20px 0;
+    margin: 10px 0;
 }
 
 .ft-column-1 nav ul {
@@ -74,12 +77,13 @@ footer {
 }
 
 .ft-column-1-links a {
+
     width: 100%;
     text-align: left;
     display: inline-block;
     /*background: black;*/
     /*padding: 12px 0;*/
-    padding: 0.2rem 2rem;
+    padding: 0.5rem 2rem;
     text-decoration: none;
     color: #d81dd8;
 }
@@ -102,7 +106,7 @@ footer {
     text-align: left;
     display: inline-block;
     background: black;
-    padding: 0.65rem 0;
+    padding: 0.6rem 0;
     text-decoration: none;
     color: #d81dd8;
 
@@ -164,7 +168,7 @@ footer {
     text-align: left;
     display: inline-block;
     background: black;
-    padding: 0.65rem 0;
+    padding: 0.6rem 0;
     text-decoration: none;
     color: #d81dd8;
 }
@@ -220,6 +224,7 @@ footer {
 }
 
 .ft-column-4 a {
+
     width: 100%;
     /*height: 3rem;*/
 
@@ -259,6 +264,7 @@ footer {
 }
 
 .ft-column-4 nav ul li a {
+    font-size: 15px;
     background: black;
     padding: 11px;
     text-decoration: none;
